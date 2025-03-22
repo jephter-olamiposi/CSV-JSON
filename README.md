@@ -8,7 +8,6 @@ A lightweight Node.js API that allows users to upload CSV files and returns thei
 - **Node.js**
 - **Express**
 - **Multer** for handling multipart/form-data uploads
-- **fs/promises** for async file operations
 
 ## 🔁 API Usage
 
