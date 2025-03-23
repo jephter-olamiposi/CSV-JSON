@@ -9,6 +9,30 @@ A lightweight Node.js API that allows users to upload CSV files and returns thei
 - **Express**
 - **Multer** for handling multipart/form-data uploads
 
+
+## 🚀 Getting Started
+
+Follow the steps below to set up and run the project locally:
+
+### 📦 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/csv-to-json-api.git
+cd csv-to-json-api
+```
+
+```bash
+npm install
+```
+```bash
+node index.js
+```
+### The server will run on:
+```
+http://localhost:3000
+```
+
+
 ## 🔁 API Usage
 
 ### `POST /upload-csv`
@@ -80,24 +104,3 @@ The application is structured into two main files:
 ## 🧹 Cleanup
 - Uploaded CSV files are stored temporarily in the uploads/ directory and automatically deleted after successful parsing to avoid server clutter.
 
-## 🚀 Getting Started
-
-Follow the steps below to set up and run the project locally:
-
-### 📦 1. Clone the repository
-
-```bash
-git clone https://github.com/your-username/csv-to-json-api.git
-cd csv-to-json-api
-```
-
-```bash
-npm install
-```
-```bash
-node index.js
-```
-### The server will run on:
-```
-http://localhost:3000
-```
