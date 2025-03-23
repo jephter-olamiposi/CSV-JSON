@@ -85,7 +85,7 @@ The application is structured into two main files:
   - Deletes the uploaded file from the disk after parsing.
   - Sends the parsed JSON response to the client.
 
-### 2. `logic.js` — CSV to JSON Converter
+### 2. `parser.js` — CSV to JSON Converter
 - Uses the `fs.promises` API to read the uploaded file asynchronously.
 - Splits the file content by line breaks (`\r\n`).
 - Takes the first row as column headers and formats them (replacing spaces with underscores).
