@@ -6,7 +6,7 @@ const path = require("path");
 const PORT = process.env.PORT || 3000;
 const app = express();
 app.use(express.json());
-const convert = require("./logic.js");
+const convert = require("./parser.js");
 app.use(express.static(__dirname + "/uploads"));
 
 const storage = multer.diskStorage({
